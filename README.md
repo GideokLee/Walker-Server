@@ -10,9 +10,14 @@
     - 
 ## WALKER API GUIDE
 ### 로그인 화면
-
+/login/{id}{pwd}
 ### 회원 등록 화면
-
+/signup/{id}{pwd}{name}
 ### 사용 로그 화면
-
+/log-day/id/{date}
+/log-week/id/{date}
+/log-month/id/{date}
 ### 알람 목록 화면
+/alam/{id}
+### BLE 장치
+/log{data}
