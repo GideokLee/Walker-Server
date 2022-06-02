@@ -1,13 +1,13 @@
-package com.walker.api;
+package com.sys.walker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WalkerServerApplication {
+public class WalkerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WalkerServerApplication.class, args);
+		SpringApplication.run(WalkerApplication.class, args);
 	}
 
 }
